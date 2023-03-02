@@ -1,0 +1,27 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+/* Style for DatePicker */
+
+#startpicker-container .tui-datepicker.tui-rangepicker{
+    z-index:100;
+}
+#endpicker-container .tui-datepicker.tui-rangepicker{
+    z-index:100;
+}
